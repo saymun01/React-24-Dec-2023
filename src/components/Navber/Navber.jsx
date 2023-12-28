@@ -15,9 +15,11 @@ const Hero = () => {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li className="flex-row mr-28">
-              <NavLink to="/shop" className="text-white">Shop</NavLink>
-              <NavLink to="/review" className="text-white">Order Review</NavLink>
-              <NavLink to="/about" className="text-white">About</NavLink>
+              <NavLink to="/shop" className="text-white font-semibold	mr-4">Shop</NavLink>
+              <NavLink to="/Order-Review" className="text-white font-semibold	mr-4">Order Review</NavLink>
+              <NavLink to="/about" className="text-white font-semibold	mr-4">About</NavLink>
+              <NavLink to="/Sing-Up" className=" font-semibold	mr-4 text-[#FFE0B3]">Sing Up</NavLink>
+              <NavLink to="/Login" className=" font-semibold	text-[#FFE0B3]">Login</NavLink>
             </li>
           </ul>
         </div>
