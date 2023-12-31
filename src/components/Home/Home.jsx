@@ -1,7 +1,7 @@
 import React from "react";
 import BoyImage from "../../assets/Boy image.png";
 import "./Home.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -66,10 +66,10 @@ const Home = () => {
                   src="//laz-img-cdn.alicdn.com/tfs/TB1QTkMXG67gK0jSZFHXXa9jVXa-45-28.png"
                 />
               </p>
-              <div className="card-actions ">
-                <button className="btn text-black bg-[#F90] w-full">
+              <div className="card-actions w-full">
+                <Link to="/Contract"><button className="btn text-black bg-[#F90] ">
                   Buy Now
-                </button>
+                </button></Link>
               </div>
             </div>
           </div>
@@ -159,8 +159,8 @@ const Home = () => {
           </div>
         </div>
         <div className="grid justify-items-end mr-48 pb-20">
-          <button className="btn text-black bg-[#F90] w-30">
-            <NavLink to ="/shop">Buy More...</NavLink> </button>
+        <NavLink to ="/shop"><button className="btn text-black bg-[#F90] w-30">
+            Buy More... </button></NavLink>
         </div>
       </div>
     </div>

@@ -90,7 +90,7 @@ const SingUp = () => {
       </div>
 
       <button type="button" className="mb-10 btn btn-secondary btn-block">
-        LOGIN
+        Sing Up
       </button>
     </div>
   );

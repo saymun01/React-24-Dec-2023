@@ -4,8 +4,9 @@ import Logo from '../../assets/logo.png'
 import LogoNew from '../../assets/logoNew.png'
 import { NavLink } from "react-router-dom";
 const Hero = () => {
-  return (
-    <div className="navbar bg-[#1C2B35] fixed z-10">
+  return ( 
+    // [#1C2B35]
+    <div className="navbar bg-black fixed z-10">
       <div className="container mx-auto">
         <div className="flex-1">
           <NavLink to='/' className="text-white text-xl">
